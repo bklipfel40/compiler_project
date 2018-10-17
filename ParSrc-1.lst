@@ -1,0 +1,10 @@
+   1: // correct test program for parser
+   2: testOne {
+   3:   int amt, box;
+   4:   int x, y, w;
+   5:   amt := 5 * y - 2;
+   6:   x := 5 * (y - 2);
+   7:   box := 5 * x / amt + 3 * 4;
+   8:   y := z; w:= 1;
+   9: }
+  10:    -A Parse Successful

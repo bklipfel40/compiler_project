@@ -1,0 +1,34 @@
+    1: include something;
+       A------ B--------C
+    -A IDENT found
+    -B IDENT found
+    -C SEMI found
+    2: var = 250;
+       A-- B C--D
+    -A IDENT found
+    -B EQUAL found
+    -C NUMBR found
+    -D SEMI found
+    3: longvar = 4713 - 22;
+       A------ B C--- D E-F
+    -A IDENT found
+    -B EQUAL found
+    -C NUMBR found
+    -D UNKWN found
+    -E NUMBR found
+    -F SEMI found
+    4: mixed; line ;
+       A----B C--- D
+    -A IDENT found
+    -B SEMI found
+    -C IDENT found
+    -D SEMI found
+    5: more54;
+       A---B-C
+    -A IDENT found
+    -B NUMBR found
+    -C SEMI found
+       C
+    -A EOF found
+    -B EOF found
+    -C EOF found

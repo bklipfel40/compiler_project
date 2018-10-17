@@ -1,0 +1,120 @@
+Start Processing Input
+created base
+entered euclid with 1
+entered aristotle with 2
+entered pythagorous with 3
+entered archimedes with 4
+entered eudoxus with 5
+entered plato with 6
+entered nicomachus with 7
+entered ptolemy with 8
+entered eratosthenes with 9
+entered diophantus with 10
+plato present in scope base with attr 6 1
+eratosthenes present in scope base with attr 9 1
+entered apollonius with 11
+entered asclepius with 12
+entered democritus with 13
+entered hippocrates with 14
+pythagorous present in scope base with attr 3 1
+created first
+entered opal with 15
+entered ruby with 16
+entered topaz with 17
+entered diamond with 18
+entered emerald with 19
+ruby present in scope base>first with attr 16 1
+diamond present in scope base>first with attr 18 1
+entered beryl with 20
+entered sapphire with 21
+ruby present in scope base>first with attr 16 2
+transfer base>first:sapphire
+transfer base>first:emerald
+transfer base>first:ruby
+transfer base>first:beryl
+transfer base>first:diamond
+transfer base>first:topaz
+transfer base>first:opal
+transfer base:euclid
+transfer base:eratosthenes
+transfer base:eudoxus
+transfer base:pythagorous
+transfer base:aristotle
+transfer base:apollonius
+transfer base:plato
+transfer base:archimedes
+transfer base:hippocrates
+transfer base:nicomachus
+transfer base:democritus
+transfer base:diophantus
+transfer base:ptolemy
+transfer base:asclepius
+Statistics min: 0 max: 3 avg: 1 total: 7
+destroyed first
+Table: copy
+Cnt Scope                                     Name  Attr
+  0 copy                         base:eratosthenes     9     0
+  1 copy                        base>first:diamond    18     0
+  2 copy                              base:ptolemy     8     0
+  3 copy                           base:apollonius    11     0
+  4 copy                           base>first:ruby    16     0
+  5 copy                               base:euclid     1     0
+  6 copy                           base:nicomachus     7     0
+  7 copy                          base:hippocrates    14     0
+  8 copy                              base:eudoxus     5     0
+  9 copy                          base>first:beryl    20     0
+ 10 copy                          base>first:topaz    17     0
+ 11 copy                                base:plato     6     0
+ 12 copy                       base>first:sapphire    21     0
+ 13 copy                          base:pythagorous     3     0
+ 14 copy                           base:diophantus    10     0
+ 15 copy                           base:democritus    13     0
+ 16 copy                           base>first:opal    15     0
+ 17 copy                            base:aristotle     2     0
+ 18 copy                            base:asclepius    12     0
+ 19 copy                        base>first:emerald    19     0
+ 20 copy                           base:archimedes     4     0
+Statistics min: 0 max: 4 avg: 1 total: 21
+destroyed copy
+created second
+entered nothing with 28
+created third
+created fourth
+entered gold with 22
+entered platinum with 23
+entered copper with 24
+entered iron with 25
+entered tungsten with 26
+entered mercury with 27
+copper present in scope base>second>third>fourth with attr 24 1
+Table: base>second>third>fourth
+Cnt Scope                                     Name  Attr
+  0 base>second>third>fourth               mercury    27     0
+  1 base>second>third>fourth                  iron    25     0
+  2 base>second>third>fourth                  gold    22     0
+  3 base>second>third>fourth              tungsten    26     0
+  4 base>second>third>fourth                copper    24     1
+  5 base>second>third>fourth              platinum    23     0
+  6 base>second                            nothing    28     0
+  7 base                                    euclid     1     0
+  8 base                              eratosthenes     9     1
+  9 base                                   eudoxus     5     0
+ 10 base                               pythagorous     3     1
+ 11 base                                 aristotle     2     0
+ 12 base                                apollonius    11     0
+ 13 base                                     plato     6     1
+ 14 base                                archimedes     4     0
+ 15 base                               hippocrates    14     0
+ 16 base                                nicomachus     7     0
+ 17 base                                democritus    13     0
+ 18 base                                diophantus    10     0
+ 19 base                                   ptolemy     8     0
+ 20 base                                 asclepius    12     0
+Statistics min: 0 max: 2 avg: 1 total: 6
+destroyed fourth
+Statistics min: 0 max: 0 avg: 0 total: 0
+destroyed third
+Statistics min: 0 max: 1 avg: 0 total: 1
+destroyed second
+Statistics min: 0 max: 3 avg: 1 total: 14
+destroyed base

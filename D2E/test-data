@@ -1,0 +1,16 @@
+int p;
+int p[];
+int p[10];
+int p[n][];
+int * p;
+int * * p;
+int * p[];
+int (*p)[];
+char (*fp)();
+char (*ap)[10];
+int (*(*x[3])())[5];
+char (*(*x())[])();
+int * f()[];
+int (*f()[])[];
+char ((f())())();
+int (*(*f)()[n])()[m];

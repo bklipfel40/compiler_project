@@ -1,0 +1,8 @@
+   1: Fifth {
+   2:   int x, y, w;
+   3:   x := 5 * (y - 2);
+   4:   y := z; w:= 1;
+   5: }
+   6: z : = x;
+       A
+   -A Parse Unsuccessful

@@ -1,0 +1,11 @@
+   1: // test program for parser with error on line 5
+   2: testTwo {
+   3:   int amt, box;
+   4:   int x, y, w;
+   5:   amt := 5 * y - 2;
+   6:   x := 5 * (y - 2);
+   7:   box := 5 * x / amt + 3 * * 4;
+     B                            A
+   -A err: "syntax error" yytext: "*"
+
+   -B Parse Unsuccessful
